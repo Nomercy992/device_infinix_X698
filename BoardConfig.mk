@@ -165,6 +165,16 @@ TW_USE_TOOLBOX := true
 TW_HAS_MTP := true
 TW_FRAMERATE := 60
 
+# pbrp flags
+PB_GO := TRUE
+
+# PBRP specific build flags
+PB_DISABLE_DEFAULT_TREBLE_COMP := true 
+PB_DISABLE_DEFAULT_DM_VERITY := true
+
+# PB Torch
+PB_TORCH_PATH := "/sys/devices/virtual/torch/torch/torch_level"
+PB_TORCH_MAX_BRIGHTNESS := 1
 # Recovery fstab
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery/root/system/etc/recovery.fstab
 
