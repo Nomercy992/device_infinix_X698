@@ -1,4 +1,4 @@
-FDEVICE="X69"
+FDEVICE="X698"
 
 fox_get_target_device() {
 local chkdev=$(echo "$BASH_SOURCE" | grep $FDEVICE)
